@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".SelectOptionAuthActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="231dp"
+            android:layout_marginTop="79dp"
+            android:src="@drawable/textkamyon" />
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp">
+
+
+            <Button
+                android:id="@+id/btnIniSes"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:backgroundTint="@color/red"
+                android:layout_marginRight="60dp"
+                android:layout_marginLeft="60dp"
+                android:gravity="center"
+                android:text="Iniciar sesión"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                app:iconTint="@color/red" />
+        </LinearLayout>
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnRegis"
+                android:layout_width="183dp"
+                android:layout_height="match_parent"
+                android:backgroundTint="@color/blue"
+                android:gravity="center"
+                android:layout_marginRight="60dp"
+                android:layout_marginLeft="60dp"
+                android:text="Registrese"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                app:iconTint="@color/blue" />
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
