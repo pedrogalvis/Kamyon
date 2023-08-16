@@ -1,5 +1,11 @@
 <resources>
     <string name="app_name">Kamyon</string>
     <string name="plataforma_digital_transporte_carga">Plataforma Digital Transporte Carga</string>
-    <string name="Texto_Login">Empresa</string>
+    <string name="Texto1">Empresa</string>
+    <string name="SubTexto">Encuentre un proveedor de transporte</string>
+    <string name="Btn_1">Ingrese aquí</string>
+    <string name="Texto2">Transportador</string>
+    <string name="Btn_2">Ingrese aquí</string>
+    <string name="SubTexto2">Encuentre la carga adecuada</string>
+
 </resources>

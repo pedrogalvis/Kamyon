@@ -14,19 +14,15 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
-
         <ImageView
-
             android:layout_width="448dp"
             android:layout_height="133dp"
             android:layout_gravity="center"
-            android:layout_marginLeft="40dp"
+            android:layout_marginStart="40dp"
             android:layout_marginTop="30dp"
-            android:layout_marginRight="21dp"
+            android:layout_marginEnd="21dp"
             android:src="@drawable/logo_kamyon" />
-
     </LinearLayout>
-
 
 
     <TextView
@@ -34,7 +30,7 @@
         android:layout_height="wrap_content"
         android:textAlignment="center"
         android:layout_marginTop="200dp"
-        android:text="@string/Texto_Login"
+        android:text="@string/Texto1"
         android:textColor="@color/blue"
         android:textSize="28sp"
         android:textStyle="bold"
@@ -59,8 +55,8 @@
             android:layout_marginRight="60dp"
             android:layout_marginLeft="60dp"
             android:gravity="center"
-            android:text="Ingrese aquí"
-            android:textSize="22dp"
+            android:text="@string/Btn_1"
+            android:textSize="22sp"
             android:textStyle="bold"
             app:iconTint="@color/red"/>
 
@@ -71,22 +67,21 @@
         android:gravity="center"
         android:orientation="horizontal"
         android:layout_marginTop="30dp"
-        android:layout_marginBottom="30dp">
+        android:layout_marginBottom="30dp" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAlignment="center"
         android:layout_marginTop="400dp"
-        android:text="Transportador"
+        android:text="@string/Texto2"
         android:textColor="@color/blue"
         android:textSize="28sp"
         android:textStyle="bold">
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Encuentre un proveedor de
-        transporte"
+        android:text="@string/SubTexto"
         android:textAlignment="center"
         android:textColor="@color/gray"
         android:textSize="23sp"
@@ -101,21 +96,22 @@
         android:layout_gravity="center"
         android:layout_marginTop="276dp"
         android:backgroundTint="@color/red"
-        android:text="Ingrese aquí"
-        android:textSize="22dp"
+        android:text="@string/Btn_2"
+        android:textSize="22sp"
         android:textStyle="bold"
         app:iconTint="@color/red"
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Encuentre la carga adecuada"
+        android:layout_marginTop="505dp"
+        android:text="@string/SubTexto2"
         android:textAlignment="center"
         android:textColor="@color/gray"
-        android:layout_marginTop="495dp"
         android:textSize="23sp"
         android:textStyle="bold"
         app:layout_anchor="@+id/linearLayout"
-        app:layout_anchorGravity="center"/>
+        app:layout_anchorGravity="center" />
 
 
 
