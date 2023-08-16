@@ -34,7 +34,7 @@
         android:layout_height="wrap_content"
         android:textAlignment="center"
         android:layout_marginTop="200dp"
-        android:text="Empresa"
+        android:text="@string/Texto_Login"
         android:textColor="@color/blue"
         android:textSize="28sp"
         android:textStyle="bold"
