@@ -99,7 +99,11 @@
         android:text="@string/Btn_2"
         android:textSize="22sp"
         android:textStyle="bold"
+<<<<<<< HEAD
         app:iconTint="@color/red"/>
+=======
+        app:iconTint="@color/red"
+>>>>>>> 2b152e0a1f55859e9fccfc9cc00dbb7b110b560d
 
     <TextView
         android:layout_width="match_parent"
