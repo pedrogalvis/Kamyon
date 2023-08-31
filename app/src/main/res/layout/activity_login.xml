@@ -25,7 +25,8 @@
             android:layout_marginStart="40dp"
             android:layout_marginTop="80dp"
             android:layout_marginEnd="21dp"
-            android:src="@drawable/logo_kamyon" />
+            android:src="@drawable/logo_kamyon"
+            android:contentDescription="@string/description_logo" />
 
     </LinearLayout>
 
@@ -101,14 +102,16 @@
     <Button
         android:id="@+id/btnIngrTrans"
         android:layout_width="wrap_content"
-        android:layout_height="60dp"
+        android:layout_height="68dp"
         android:layout_gravity="center"
-        android:layout_marginTop="424dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="315dp"
+        android:layout_marginRight="60dp"
         android:backgroundTint="@color/red"
         android:text="@string/Btn_2"
         android:textSize="22sp"
         android:textStyle="bold"
-        app:iconTint="@color/red"
+        app:iconTint="@color/red" />
 
     <TextView
         android:layout_width="match_parent"
